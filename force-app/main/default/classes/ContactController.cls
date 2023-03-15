@@ -12,5 +12,6 @@ public with sharing class ContactController {
         //} catch (Exception e) {
             //throw new AuraHandledException(e.getMessage());
        // }
+       //test
     }   
 }
