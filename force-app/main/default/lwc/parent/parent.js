@@ -6,6 +6,12 @@ export default class Parent extends LightningElement {
     lastName = 'parent Lname';
 
     handleChange(event){
-        this.firstName = event.target.value;
+        if(event.target.name == 'fName'){
+            this.firstName = event.target.value;
+
+        }else if(event.target.name == 'lName'){
+            this.lastName = event.target.value;
+
+        }
     }
 }
